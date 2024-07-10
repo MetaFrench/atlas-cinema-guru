@@ -2,37 +2,84 @@
     background-color: #161616;
     text-align: right;
     height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .cinema-guru {
+    position: absolute;
+    left: 2rem;
   }
   
   .profile-img {
-    width: 4rem;
+    width: 2.5rem;
     border-radius: 50%;
-    border: solid red 2px;
+    border: solid #BB000E 3px;
+    margin: 0.5rem;
+  
   }
   
-  .logout-icon {
-    color: red;
+  .welcome-user {
+    display: inline;
+    margin-right: 2rem;
   }
   
-  /* .sidebar {
-    width: 250px;
-  } */
+  .logout-icon, .header-span {
+    color: #BB000E;
+  }
   
-  /* .sidebar.small {
-    width: 80px;
-  } */
+  .header-span {
+    margin-right: 2rem;
+  }
   
-  /* .navigation {
+   /* __________ SIDEBAR __________ */
+  
+  .sidebar {
+    width: 55px;
+    background-color: #BB000E;
+    font-size: 0;
+    text-align:  center;
+  }
+  
+  .sidebar:hover {
+    width: 300px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .sidebar-ul {
+    margin-top: 0;
     list-style-type: none;
     padding: 0;
-  } */
+  }
+  .sidebar-ul li {
+    /* text-align:  center; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .sidebar-ul li:hover {
+    background-color: #E31C25;
+    text-align: center;
+  }
   
-  /* .navigation li {
-    padding: 10px;
-    cursor: pointer;
-  } */
+  .latest-activities {
+    text-align: center;
+    font-size: 24px;
+  }
   
-  /* .activity-list {
-    list-style-type: none;
-    padding: 0;
-  } */
+  .activity-list {
+    background-color: #2C2C2C;
+    padding: 5px;
+    margin: 5px;
+    display: none;
+  }
+  .sidebar:hover .activity-list {
+    display: block;
+  }
+  
+  .side-icon {
+    color: white;
+    font-size: 16px;
+  }
