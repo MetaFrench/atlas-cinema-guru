@@ -1,0 +1,38 @@
+.header-nav {
+    background-color: #161616;
+    text-align: right;
+    height: 10%;
+  }
+  
+  .profile-img {
+    width: 4rem;
+    border-radius: 50%;
+    border: solid red 2px;
+  }
+  
+  .logout-icon {
+    color: red;
+  }
+  
+  /* .sidebar {
+    width: 250px;
+  } */
+  
+  /* .sidebar.small {
+    width: 80px;
+  } */
+  
+  /* .navigation {
+    list-style-type: none;
+    padding: 0;
+  } */
+  
+  /* .navigation li {
+    padding: 10px;
+    cursor: pointer;
+  } */
+  
+  /* .activity-list {
+    list-style-type: none;
+    padding: 0;
+  } */
