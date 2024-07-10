@@ -8,7 +8,7 @@ import Activity from '../Activity';
 
 // STYLE IMPORTS --------------------------------------------------------
 import './navigation.css';
-import { folderIcon, starIcon, clockIcon } from '../../assets/fontIcons';
+import { sideFolderIcon, sideStarIcon, sideClockIcon } from '../../assets/fontIcons';
 
 function SideBar() {
   // STATES ------------------------------------------------
@@ -55,13 +55,13 @@ function SideBar() {
   // RETURN COMPONENT -----------------------------------------------------------
   return (
     <nav className={`sidebar ${small ? 'small' : ''}`}>
-      <h1>Side Bar</h1>
-      <ul className='navigation'>
-        <li onClick={() => setPage('Home')}>{folderIcon} Home</li>
-        <li onClick={() => setPage('Favorite')}>{starIcon} Favorites</li>
-        <li onClick={() => setPage('Watch Later')}>{clockIcon} Watch Later</li>
+      <ul className='sidebar-ul'>
+        <li onClick={() => setPage('Home')}>{sideFolderIcon} Home</li>
+        <li onClick={() => setPage('Favorite')}>{sideStarIcon} Favorites</li>
+        <li onClick={() => setPage('Watch Later')}>{sideClockIcon} Watch Later</li>
       </ul>
       <ul className='activity-list'>
+        <u className='latest-activities'>Latest Activities</u><br></br>
         {activities.length !== 0 ? 
           activities.slice(0, 10).map(activity => (
             <Activity key={activity.id} activity={activity} />
@@ -70,7 +70,6 @@ function SideBar() {
           <p>no activites</p>
         }
       </ul>
-      <h1>Side Bar End</h1>
     </nav>
   )
 }
