@@ -1,0 +1,50 @@
+.authForm {
+    width: 25%;
+    height: 15rem;
+    background-color: white;
+    color: black !important;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .auth-header {
+    text-align: center;
+  }
+  
+  .auth-button {
+    width: 50%;
+    height: 2rem;
+  }
+  
+  .auth-input {
+    width: 85%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .submit-auth-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+  }
+  
+  .submit-auth-button {
+    padding: 8px;
+    margin-top: 1rem;
+  }
+  
+  .icon {
+    color: #000000;
+    opacity: 40%;
+  }
+  
+  .key-button-icon {
+    color: white;
+  }
