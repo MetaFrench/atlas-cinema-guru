@@ -1,0 +1,75 @@
+html {
+    background-color: #1C1C1C;
+    /* color: red; */
+  }
+  
+  .icon {
+    color: #000000;
+    opacity: 40%;
+  }
+  
+  /* ----- INPUT ----- */
+  .input {
+    margin: auto;
+    /* color: #FFFFFF; */
+  }
+  
+  .input input {
+    border: none;
+    border-bottom: 2px solid #BB000E;
+    width: 95%;
+    /* text-align: center; */
+  }
+  
+  /* ----- SELECT INPUT ----- */
+  .selectInput {
+    border: none;
+    border-bottom: 2px solid #BB000E;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+  }
+  
+  .selectInput option {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+  }
+  
+  /* ----- BUTTON ----- */
+  .button {
+    background-color: #BB000E;
+    color: #FFFFFF !important;
+    opacity: 100% !important;
+    border: 0;
+  }
+  .active-button {
+    background-color: #BB000E;
+    color: #FFFFFF !important;
+    opacity: 100% !important;
+    border: 0;
+  }
+  .inactive-button {
+    background-color: #E31C25;
+    color: #FFFFFF !important;
+    opacity: 100% !important;
+    border: 0;
+  }
+  
+  /* ----- SEARCHBAR -----*/
+  .searchBar {
+    border-radius: 25px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    opacity: 50%;
+    border: 0;
+    width: 90%;
+    height: 10%;
+    margin-top: 10px;
+  }
+  .search-icon {
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+  
+  .searchBar:hover, .searchBar:focus{
+    opacity: 100%;
+  }
