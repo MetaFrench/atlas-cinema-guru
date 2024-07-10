@@ -1,0 +1,78 @@
+.search-icon {
+    color: white;
+  }
+  
+  .movie-card-li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3rem;
+    list-style-type: none;
+  }
+  
+  .filter-div {
+    display: flex;
+    /* flex: 1; */
+  }
+  .filter-inputs {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .filter-tags {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .tag-li {
+    width: 25%;
+    border: solid #E31C25 1px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px;
+    margin: 8px;
+  }
+  .tag-li:hover {
+    background-color: #7d1016;
+  }
+  .tag-li-selected {
+    background-color: #E31C25;
+  }
+  
+  .min-date-input {
+    margin: 10px;
+  }
+  .min-date-input input {
+    background-color: #2C2C2C;
+    border: none;
+    border-bottom: 2px solid #BB000E;
+    color: white;
+  }
+  
+  .max-date-input {
+    margin: 10px;
+  }
+  .max-date-input input {
+    background-color: #2C2C2C;
+    border: none;
+    border-bottom: 2px solid #BB000E;
+    /* width: 95%; */
+    color: white;
+  }
+  
+  .sort-options {
+    color: #FFFFFF;
+    margin: 10px;
+  }
+  .sort-options select {
+    width: 342px;
+    background-color: #2C2C2C;
+    border: none;
+    border-bottom: 2px solid #BB000E;
+    color: #FFFFFF;
+  }
+  .sort-options option {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+  }
